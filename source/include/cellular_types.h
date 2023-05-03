@@ -118,6 +118,10 @@ typedef enum CellularRat
     CELLULAR_RAT_LTE = 7,        /**< The LTE RATs network. */
     CELLULAR_RAT_CATM1 = 8,      /**< The CAT M1 RATs network. */
     CELLULAR_RAT_NBIOT = 9,      /**< The NBIOT RATs network. */
+    CELLULAR_RAT_LTE_ON_5GCN = 10, /**< LTE RATs network on 5GCN. */
+    CELLULAR_RAT_NR_ON_5GCN = 11,  /**< The NR RATs network on 5GCN. */
+    CELLULAR_RAT_NG = 12,          /**< The NG RATs network. */
+    CELLULAR_RAT_LTE_NG = 13,      /**< The LTE / NG dual connectivity RATs network. */
     CELLULAR_RAT_MAX,            /**< The max supported number for RATs network. */
     CELLULAR_RAT_INVALID = 0xFF  /**< Any other error other than the above mentioned ones. */
 } CellularRat_t;
